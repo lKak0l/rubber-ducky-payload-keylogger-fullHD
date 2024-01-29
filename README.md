@@ -52,11 +52,16 @@ Y así, entre risas, galletas, y la peculiar paleta de gustos de kaMeX, les aseg
  
 Introducción: Solo lo he usado en Windows 10, y creo que funciona a partir del Windows 7. 1º hay que instalar Python, y copiar sus librerías (extensiones) en la carpeta de librerías para compilar perfectamente bien. 2º hay que instalar Visual Studio Code.
 
-💻 Requisitos: Microsoft Windows 7 to 11
-               Python 3.12
-               Visual Studio Code
+💻 Requisitos:   Microsoft Windows 7 to 11
+
+                 Python 3.12
+
+                 Visual Studio Code
+
+...............................................................................................................
           
-RESUMEN DEL SCRIPT
+🔎 RESUMEN DEL SCRIPT
+
 El script, se trata de una aplicación python para Windows y equipos basados en windows; que lo que hace, es registrar en un archivo temporal "log.txt", todas las teclas pulsadas y el contenido del portapapeles (cuando hago ctrl+c).  Y con cada 10 pulsaciones de la tecla (ENTER); hace una screenshot (captura de pantalla), y lo envía todo codificado en base64 a un correo personalizable (es configurable, se pone la api correspondiente en resend.api_key = "Tu_aPInUeVaaPInUeVaaPInUeVa"), los correos que envía ("from"), los correos que recibe ("to") el "subject", "text", y pocas cosas más a simple vista (contra menos cosas toqueis mejor), lo envía, y vuelve a poner en monitorización el script.
 
 El script en python una vez codificado, se compila, se monta en un ejecutable (keylogger.py > keylogger.exe), y después se comprime (keylogger.exe > keylogger.zip) (Para subir/bajar el archivo mejor (0.0)... 
