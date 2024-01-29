@@ -1,73 +1,17 @@
-# KEYLOGGER KAKOCHIPS.py
-
- ¡Buenas tardes, señoras y señores! ¡Bienvenidos a esta presentación tan especial de nuestro script maravilloso creado por el brillante robot extraterrestre, kaMeX, de la empresa "kako chips"! Estamos aquí con una conversación entre un servidor y el inigualable kaMeX, quien, aunque su inteligencia es intergaláctica, su español deja un poco que desear. Pero no se preocupen, ¡esto será más divertido que una fiesta en el espacio!
-
-🕵️‍♂️ Yo: ¡Hola, kaMeX, mi amigo! ¿Dónde guardaste ese increíble script que me guardabas? ¿Se te olvidó ya o lo perdiste?
-
-🐱‍🚀 kaMeX: Yes, this is my script, is nice & very good. Lo tengo guardado.
-
-🕵️‍♂️ Yo: ¡Quiero presentar tu producto!
-
-🐱‍🚀 kaMeX: Me gustan las galletas de nocilla y la cocacola con pizza.
-
-🕵️‍♂️ Yo: ¿Pizza con Coca-Cola? ¿Estás seguro, kaMeX?
-
-¡Y así comienza esta peculiar charla, donde la lógica de kaMeX nos lleva por caminos inexplorados de la mente cósmica! Pero lo emocionante es que este script que nos trae, es como un viaje a través de las estrellas, pero sin perder de vista las galletas de nocilla y la extraña combinación de pizza con Coca-Cola.
-
-Ahora, déjenme contarles, mientras nos reímos de las ocurrencias de kaMeX, que este script de monitorización que les presentaré a continuación es simplemente revolucionario. No solo es inteligente, sino que también es tan eficiente que hasta kaMeX lo elogia entre bocado y bocado de galleta. ¡Pero antes de entrar en detalles técnicos, vamos a disfrutar de más de esta conversación cómica!
-
-🕵️‍♂️ Yo: ¿En serio, kaMeX, pizza con Coca-Cola?
-
-🐱‍🚀 kaMeX: Yes, is very nice. Soy un extraterrestre con gusto terrestre.
-
-🕵️‍♂️ Yo: ¡Oye, kaMeX, en serio, ¿dónde está ese código que me guardabas en tu sistema? Necesito presentarlo y no quiero que se pierda en la galaxia de tus pensamientos cósmicos.
-
-🐱‍🚀 kaMeX: Oh, el código, sí, sí. It's like the stars in the sky, always there, but hard to find.
-
-🕵️‍♂️ Yo: Pero necesito ese código como un astronauta necesita su traje espacial. ¿Dónde está?
-
-🐱‍🚀 kaMeX: El código está en mi mente, pero mi mente es un lugar muy grande, lleno de nebulosas de pensamientos.
-
-🕵️‍♂️ Yo: ¡No me dejes en la nebulosa, kaMeX! ¿Está en la carpeta de "Scripts Increíbles" o en la de "Cosas que Me Gustan"?
-
-🐱‍🚀 kaMeX: Hmmm, maybe en la carpeta de "Cosas que Me Gustan". But galletas de nocilla also go there.
-
-🕵️‍♂️ Yo: ¡Oh, genial! ¿Y cómo llego a esa carpeta en tu mente, oh gran kaMeX?
-
-🐱‍🚀 kaMeX: Follow the cometas de la creatividad y turn left at the estación de los recuerdos. ¡No es tan difícil!
-
-Y así, entre giros y vueltas en el laberinto mental de kaMeX, seguimos buscando ese codiciado código mientras nos perdemos en sus ocurrencias intergalácticas.
-
-🕵️‍♂️ Yo: ¡En serio, kaMeX, necesito ese código para la presentación!
-
-🐱‍🚀 kaMeX: The code will find you, my friend. Like a shooting star in the night sky. But first, let's talk about why las vacas vuelan.
-
-🕵️‍♂️ Yo: ¿Vacas voladoras? ¡Estás desviándote, kaMeX!
-
-Y así continúa la cómica conversación, donde las risas y los enigmas de kaMeX se entrelazan mientras buscamos desesperadamente el código perdido en el universo de su mente. Pero no se preocupen, ¡al final, como les adelanté, llegaremos a la revelación del espectacular script de "kako chips"! ¡Sigan con nosotros en este viaje cósmico y divertido!
-
-Y así, entre risas, galletas, y la peculiar paleta de gustos de kaMeX, les aseguro que lo que están a punto de presenciar con nuestro script de monitorización es más sorprendente que la combinación intergaláctica de sabores que nuestro amigo extraterrestre ha adoptado.
-
-¡Así que prepárense para un viaje de humor, tecnología y una pizca de locura galáctica! ¡Aquí en "kako chips", con la ayuda de kaMeX, estamos listos para salvarlos de la monotonía de Shakira con nuestro script de monitorización único en el universo!
- 
-Introducción: Solo lo he usado en Windows 10, y creo que funciona a partir del Windows 7. 1º hay que instalar Python, y copiar sus librerías (extensiones) en la carpeta de librerías para compilar perfectamente bien. 2º hay que instalar Visual Studio Code.
-
-💻 Requisitos:   Microsoft Windows 7 to 11
-
-                 Python 3.12
-
-                 Visual Studio Code
-
+<H1>HID - PAYLOAD RUBBER DUCKY - WE 💛 🦆 </H1>
+<br>
+ <p>¡Buenas tardes, señoras y señores! Ahora que ya tienen el keylogger principal de mi otro repositorio, y veo que siguen leyendo 👨‍💻 empiezan a ser personas de bien.</p>
+ <p>Tras un escenario virtualizado, y tras la presentación, de nuestro anterior repositorio, ya estamos listos para proceder a la infección de la supuesta victima, a través de técnicas de ingeniería social, o mediante exploits.</p>
+ <br><p>En nuestro procedimiento, usaremos un tipo de exploit, que además, <b>funciona actualmente</b>. Lo que haremos, es emular un dispositivo de interfaz humana (HID). ✅</p><br>
+ <p><h3>💻 REQUISITOS </h3></p>  <ul> <li><a href="https://amzn.to/49gn7gZ" target="blank_"> BAD USB CJMCU</a></li> <li><a href="https://amzn.to/47T6dUk" target="blank_">MicroSD</a></li> <a href="https://amzn.to/3uduel2" target="blank_"><li>Lector/grabador MicroSD</li></a> <a href="https://downloads.arduino.cc/arduino-ide/nightly/arduino-ide_nightly-latest_Windows_64bit.zip" target="blank_"><li>Arduino IDE</li></a><a href="https://github.com/Seytonic/Duckduino-microSD/blob/master/Duckduino-microSD/Duckduino-microSD.ino" target="blank_"><li>Sketch teclado</li></a></ul><br>
+  <p>Tienes el keylogger listo? tienes un cliente? tienes un rootkit? 👍 Con este payload podrás instalar cualquier script de pruevas aunque este plagado de virus. ⚠ pero he de recordarte que la utilización de este payload es bajo tu propia responsabilidad. </p><br><h3>📀 INSTALACIÓN</h3>
+ <ul><li>Vamos al BAD USB CJMCU (nuevo, significa tal cual lo compras)</li> <li>instalamos el paquete oficial de <a href="https://downloads.arduino.cc/arduino-ide/nightly/arduino-ide_nightly-latest_Windows_64bit.zip" target="blank_">Arduino</a></li>
+<li>Abrimos Arduino, cargamos el sketch de <a href="https://github.com/Seytonic/Duckduino-microSD/blob/master/Duckduino-microSD/Duckduino-microSD.ino" target="blank_">Duckduino</a>. Cambia la línea 27, y pones <code>Keyboard.begin (KeyboardLayout_es_ES)</code></li> <li>Súbelo a la placa BAD USB CJMCU. 📤</li> <li> Paso final: Usar un SO virtual para la puesta en escena. Cargar el payload.</li></ul><br><h3>⚡FUNCIONAMIENTO</h3><BR>Este script solo se ha probado en Microsoft Windows 10, pero creemos que funciona desde su versión 7.
+<br>
 ...............................................................................................................
-          
-🔎 RESUMEN DEL SCRIPT
-
-El script, se trata de una aplicación python para Windows y equipos basados en windows; que lo que hace, es registrar en un archivo temporal "log.txt", todas las teclas pulsadas y el contenido del portapapeles (cuando hago ctrl+c).  Y con cada 10 pulsaciones de la tecla (ENTER); hace una screenshot (captura de pantalla), y lo envía todo codificado en base64 a un correo personalizable (es configurable, se pone la api correspondiente en resend.api_key = "Tu_aPInUeVaaPInUeVaaPInUeVa"), los correos que envía ("from"), los correos que recibe ("to") el "subject", "text", y pocas cosas más a simple vista (contra menos cosas toqueis mejor), lo envía, y vuelve a poner en monitorización el script.
-
-El script en python una vez codificado, se compila, se monta en un ejecutable (keylogger.py > keylogger.exe), y después se comprime (keylogger.exe > keylogger.zip) (Para subir/bajar el archivo mejor (0.0)... 
-Hay más formas de ofuscación. Pero este script es para una empresa y por lo tanto le pondremos una excepción en windows defender (por ejemplo).
-
-Y ya comprimido, FINALMENTE! solo queda compartirlo por WEB/FTP/EMAIL/FACEBOOK/INSTAGRAM/ENLACEQR/ETC/GDRIVE/...
-
-Yo lo comparto con vosotros, no me hago responsable de vuestro uso, y como persona de bien os comunico que siempre que utilizeis este tipo de herramientas, lo hagais en un entorno controlado y ético.
+ <br>         
+<h3>🔎 RESULTADO DEL SCRIPT</h3><br>
+<p>Ahora tu BAD USB CJMCU, con el sketch de <b>"emulador de dispositivo HID"</b> tendrá la función correcta: al insertarla en cualquier máquina con Windows; ejecutará una serie de comandos, según los atajos de teclado que registremos en un documento de texto con nombre script.txt.</p>
+<p>Tengo un payload rubber ducky, de nombre "script.txt": Lo primero que hace es deshabilitará su seguridad, descargará un spyware comprimido, lo descomprimirá, lo ejecutará en el inicio de Windows y borrará los comandos usados.</p>
+<p>Yo lo comparto con vosotros, no me hago responsable de vuestro uso, y como persona de bien os o vuelvo a recordar, que siempre que utilizeis este tipo de herramientas, lo hagais en un entorno controlado y ético.</p>
 SALUDOS 😉
